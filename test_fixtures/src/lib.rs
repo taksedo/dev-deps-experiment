@@ -1,4 +1,3 @@
-#![cfg(feature = "testing")]
 use domain::MyStruct;
 
 pub fn my_struct() -> MyStruct {

@@ -6,5 +6,5 @@ edition = "2021"
 [dependencies]
 
 [dev-dependencies]
-test_fixtures = {path = "../test_fixtures", features = ["testing"] }
 domain = {path = "."}
+test_fixtures.workspace = true
