@@ -1,0 +1,14 @@
+[package]
+name = "experiments"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["domain", "test_fixtures"]
+
+
+[dependencies]
+
+[workspace.dependencies]
+domain = { path = "domain" }
+test_fixtures = { path = "test_fixtures" }

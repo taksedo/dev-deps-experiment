@@ -1,0 +1,10 @@
+[package]
+name = "domain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+test_fixtures = {path = "../test_fixtures", features = ["testing"] }
+domain = {path = "."}
